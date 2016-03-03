@@ -1,0 +1,9 @@
+package projectSix;
+
+public class Payroll {
+
+	private String name;
+	private int id;
+	private double hourlyPayRate;
+	private double hoursWorked;
+}

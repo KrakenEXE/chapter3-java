@@ -1,0 +1,57 @@
+package projectThree;
+
+import java.util.Scanner;
+
+public class PersonalInformationCreator {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+		
+		//for(int i=0; i<3;i++){
+			
+		System.out.print("Enter name >> ");
+		String inputName = scanner.nextLine();
+		
+		System.out.print("Enter address >> ");
+		String inputAddress = scanner.nextLine();
+
+		System.out.print("Enter age >> ");
+		int inputAge = Integer.parseInt(scanner.nextLine());
+
+		System.out.print("Enter phone number >> ");
+		double inputPhoneNumber = Double.parseDouble(scanner.nextLine());
+		
+		PersonalData human1 = new PersonalData(inputName, inputAddress, inputAge, inputPhoneNumber);
+		//}
+		
+		System.out.print("Enter name >> ");
+		inputName = scanner.nextLine();
+		
+		System.out.print("Enter address >> ");
+		inputAddress = scanner.nextLine();
+
+		System.out.print("Enter age >> ");
+		inputAge = Integer.parseInt(scanner.nextLine());
+
+		System.out.print("Enter phone number >> ");
+		inputPhoneNumber = Double.parseDouble(scanner.nextLine());
+		
+		PersonalData human2 = new PersonalData(inputName, inputAddress, inputAge, inputPhoneNumber);
+		
+		System.out.print("Enter name >> ");
+		inputName = scanner.nextLine();
+		
+		System.out.print("Enter address >> ");
+		inputAddress = scanner.nextLine();
+
+		System.out.print("Enter age >> ");
+		inputAge = Integer.parseInt(scanner.nextLine());
+
+		System.out.print("Enter phone number >> ");
+		inputPhoneNumber = Double.parseDouble(scanner.nextLine());
+		
+		PersonalData human3 = new PersonalData(inputName, inputAddress, inputAge, inputPhoneNumber);
+		
+	}
+
+}

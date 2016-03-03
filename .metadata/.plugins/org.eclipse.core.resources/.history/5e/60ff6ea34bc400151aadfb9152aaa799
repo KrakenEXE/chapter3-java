@@ -1,0 +1,20 @@
+package projectTen;
+import java.util.Scanner;
+
+public class CreatePet {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+
+		System.out.print("Enter Pet name");
+		String name = scanner.nextLine();
+		
+		System.out.print("Enter Pet type");
+		String type = scanner.nextLine();
+		
+		System.out.print("Enter Pet age");
+		String name = scanner.nextLine();
+		
+	}
+
+}

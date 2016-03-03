@@ -1,0 +1,13 @@
+package projectFive;
+
+public class RetailItem {
+	private String description;
+	private int unitsOnHand;
+	private double price;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

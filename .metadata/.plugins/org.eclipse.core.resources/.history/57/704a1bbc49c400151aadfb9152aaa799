@@ -1,0 +1,9 @@
+package projectNine;
+
+public class CircleProperties {
+
+	private double radius;
+	final double PI =  3.14159;
+	
+	
+}

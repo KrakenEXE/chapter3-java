@@ -1,0 +1,10 @@
+package projectSix;
+
+public class NewEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

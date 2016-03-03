@@ -1,0 +1,10 @@
+package projectFour;
+import java.utils.Scanner
+public class TemperatureInput {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

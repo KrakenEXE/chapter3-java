@@ -1,0 +1,8 @@
+package projectFour;
+
+public class TemperatureDetermination {
+
+	private double ftemp;
+	
+	
+}

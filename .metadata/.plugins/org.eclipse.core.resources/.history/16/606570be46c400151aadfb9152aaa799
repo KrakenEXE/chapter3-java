@@ -1,0 +1,11 @@
+package projectSeven;
+import java.util.Scanner;
+
+public class CalculateDays {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

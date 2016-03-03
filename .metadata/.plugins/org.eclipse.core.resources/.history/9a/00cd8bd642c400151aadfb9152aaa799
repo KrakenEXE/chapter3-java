@@ -1,0 +1,28 @@
+package projectSix;
+import java.util.Scanner;
+
+public class NewEmployee {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+		
+		System.out.print("Name >> ");
+		String name = scanner.nextLine();
+		
+		System.out.print("ID >> ");
+		int ID = Integer.parseInt(scanner.nextLine());
+
+		System.out.print("Hourlypayrate >> ");
+		Double hourlyPayRate= Double.parseDouble(scanner.nextLine());
+		
+		System.out.print("Hoursworked >> ");
+		Double hoursWorked= Double.parseDouble(scanner.nextLine());
+		
+		Payroll newPayroll = new Payroll(name, ID, hourlyPayRate, hoursWorked);
+	}
+	private String name;
+	private int id;
+	private double hourlyPayRate;
+	private double hoursWorked;
+	private double grossPay;
+}

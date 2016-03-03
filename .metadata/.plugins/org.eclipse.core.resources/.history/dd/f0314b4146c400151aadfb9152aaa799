@@ -1,0 +1,13 @@
+package projectSeven;
+
+public class WidgetProperties {
+
+	private int numberOfWidgets;
+	private int daysToProduceWidgets;
+	
+	//max widgets 10 per hour
+	//two shifts of 8 = 16 hours a day
+	//max widgets in a day is 16
+	
+	
+}

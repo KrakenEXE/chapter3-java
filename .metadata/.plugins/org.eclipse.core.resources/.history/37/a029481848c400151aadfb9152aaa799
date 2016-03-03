@@ -1,0 +1,11 @@
+package projectEight;
+import java.util.Scanner;
+
+public class InputTests {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

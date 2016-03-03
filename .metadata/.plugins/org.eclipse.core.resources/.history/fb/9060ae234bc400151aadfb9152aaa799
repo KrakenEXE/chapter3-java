@@ -1,0 +1,8 @@
+package projectTen;
+
+public class pet {
+
+	private String name;
+	private String type;
+	private int age;
+}

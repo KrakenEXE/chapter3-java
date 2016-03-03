@@ -1,0 +1,17 @@
+package projectSix;
+import java.util.Scanner;
+
+public class NewEmployee {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+		
+		System.out.print("Name >> ");
+		String name = 
+	}
+	private String name;
+	private int id;
+	private double hourlyPayRate;
+	private double hoursWorked;
+	private double grossPay;
+}

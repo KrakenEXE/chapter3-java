@@ -1,0 +1,18 @@
+package projectNine;
+import java.util.Scanner;
+
+public class CreateCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner( System.in);
+		
+		System.out.print("Enter circle radius >> ");
+		double radius = Double.parseDouble(scanner.nextLine());
+		
+		CircleProperties perfectCircle = new CircleProperties(radius);
+		
+		System.out.print("Area: "+perfectCircle.getArea()+" Diamter: "+perfectCircle.getDiameter()+" Circumference: "+perfectCircle.getCircumference());
+	}
+
+}

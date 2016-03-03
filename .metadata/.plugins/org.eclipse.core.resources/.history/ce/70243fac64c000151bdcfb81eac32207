@@ -1,0 +1,10 @@
+package projectFour;
+
+public class TemperatureInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

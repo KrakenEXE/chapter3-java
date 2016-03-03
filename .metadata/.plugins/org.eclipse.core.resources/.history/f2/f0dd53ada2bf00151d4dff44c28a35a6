@@ -1,0 +1,26 @@
+package projectThree;
+
+import java.util.Scanner;
+
+public class PersonalInformationCreator {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+		
+		System.out.print("Enter name >> ");
+		String inputName = scanner.nextLine();
+		
+		System.out.print("Enter address >> ");
+		String inputAddress = scanner.nextLine();
+
+		System.out.print("Enter age >> ");
+		int inputAge = Integer.parseInt(scanner.nextLine());
+
+		System.out.print("Enter phone number >> ");
+		double inputPhoneNumber = Double.parseDouble(scanner.nextLine());
+
+
+		
+	}
+
+}

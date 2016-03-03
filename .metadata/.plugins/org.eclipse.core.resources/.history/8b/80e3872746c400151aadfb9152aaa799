@@ -1,0 +1,8 @@
+package projectSeven;
+
+public class WidgetProperties {
+
+	private int numberOfWidgets;
+	private int daysToProduceWidgets;
+	
+}

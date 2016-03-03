@@ -1,0 +1,15 @@
+package projectThree;
+
+import java.util.Scanner;
+
+public class PersonalInformationCreator {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner( System.in);
+		
+		System.out.print("Enter car model >> ");
+		int inputYearModel = Integer.parseInt(scanner.nextLine());
+		
+	}
+
+}

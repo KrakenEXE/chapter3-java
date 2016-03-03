@@ -1,0 +1,8 @@
+package projectEight;
+
+public class TestScores {
+
+	private double test1;
+	private double test2;
+	private double test3;
+}
